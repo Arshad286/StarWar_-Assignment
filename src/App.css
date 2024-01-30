@@ -1,0 +1,77 @@
+/* App.css */
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 50px;
+}
+
+.left-panel {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+.right-panel {
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+select,
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 40px;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+li:hover {
+  background-color: #d9d9d9;
+}
+
+.inputText{
+    width: 60%;
+    margin: 10px;
+  
+    
+}
+
+.sort{
+  font-family: Arial;
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+ 
+.Director{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+}
+
+.Description{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+}
+
+
